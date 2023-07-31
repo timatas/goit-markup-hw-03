@@ -1,0 +1,200 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --grey: #2e2f42;
+  --white: #ffffff;
+}
+/*======= Base styles ============ */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: currentColor;
+}
+
+.h-two {
+  color: var(--grey);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.h-three {
+  color: var(--grey);
+  background-color: var(--white);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* ======== Header styles ======================= */
+/* Logo */
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.studio-header {
+  color: var(--grey);
+}
+/* Navigation on pages */
+.nav-list {
+  color: var(--grey);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-list.link:hover,
+.nav-list.link:focus {
+  color: var(--ocean);
+}
+
+.nav-list.link:active {
+  color: var(--ocean);
+}
+/* Address */
+.contacts-link {
+  /* font-style: normal; */
+  /* line-height: 1.5; */
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.contacts-link.link:hover,
+.contacts-link.link:focus {
+  color: var(--ocean);
+}
+.contacts-link.link:active {
+  color: var(--ocean);
+}
+/* ====================================== */
+/* ==========Main section================ */
+.main-section {
+  background-color: var(--grey);
+}
+.main-section-title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.main-section-btn {
+  font-family: inherit;
+  background: var(--iris);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.main-section-btn:hover,
+.main-section-btn:focus {
+  background: var(--ocean);
+  color: var(--white);
+}
+.main-section-btn:active {
+  background: var(--ocean);
+  color: var(--white);
+}
+/* =========================== */
+/* =====principles section===== */
+.principles-discr {
+  color: var(--slate);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* ================================= */
+/* =====services section============ */
+
+/* ================================= */
+/* ======team-section=============== */
+.team-section-list {
+  background-color: var(--white);
+  text-align: center;
+}
+.team-section {
+  background-color: var(--cloud);
+}
+
+.employee-job {
+  background-color: var(--white);
+  font-weight: 400;
+  color: var(--slate);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* ================================ */
+/* =====Buttons====== */
+
+.buttons {
+  font-family: inherit;
+  background: var(--cloud);
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--cornflower);
+  cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+  background: var(--ocean);
+  color: var(--white);
+}
+.buttons:active {
+  background: var(--ocean);
+  color: var(--white);
+}
+/* ========================= */
+/* ======Menu section======= */
+
+.menu-title {
+  color: var(--grey);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.menu-title-choice {
+  color: var(--slate);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* ================================ */
+/* =====Footer styles============== */
+.foot-fon {
+  background-color: var(--grey);
+}
+.studio-footer {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+}
