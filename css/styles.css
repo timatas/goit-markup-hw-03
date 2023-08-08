@@ -140,7 +140,7 @@ body {
 /* ==========Main section================ */
 .main-section {
   background-color: var(--grey);
-  width: 1440px;
+  margin-bottom: 120px;
 }
 .main-section-container {
   padding: 188px 0;
@@ -184,9 +184,9 @@ body {
 /* =========================== */
 /* =====section-two===== */
 .section-two {
-  width: 1128px;
-  margin: 120px auto;
-  background: coral;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  background: var(--white);
 }
 .section-two-container {
 }
@@ -195,7 +195,7 @@ body {
   gap: 24px;
 }
 .section-two-item {
-  flex-basis: calc((100% - 72) / 4);
+  width: calc((100% - 72) / 4);
 }
 
 .principles-discr {
