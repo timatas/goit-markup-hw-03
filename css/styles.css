@@ -58,7 +58,7 @@ body {
   letter-spacing: 0.02em;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -182,7 +182,22 @@ body {
   color: var(--white);
 }
 /* =========================== */
-/* =====principles section===== */
+/* =====section-two===== */
+.section-two {
+  width: 1128px;
+  margin: 120px auto;
+  background: coral;
+}
+.section-two-container {
+}
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+.section-two-item {
+  flex-basis: calc((100% - 72) / 4);
+}
+
 .principles-discr {
   color: var(--slate);
   font-weight: 400;
