@@ -6,6 +6,8 @@
   --cloud: #f4f4fd;
   --grey: #2e2f42;
   --white: #ffffff;
+  --indent: 24px;
+  --items: 3;
 }
 /*======= Base styles ============ */
 body {
@@ -48,6 +50,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  min-width: 323px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .h-three {
   color: var(--grey);
@@ -64,6 +69,11 @@ body {
 }
 .nav {
   display: flex;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* ======== Header styles ======================= */
 /* Logo */
@@ -188,8 +198,7 @@ body {
   margin-bottom: 120px;
   background: var(--white);
 }
-.section-two-container {
-}
+
 .section-two-list {
   display: flex;
   gap: 24px;
@@ -204,16 +213,48 @@ body {
   letter-spacing: 0.02em;
 }
 /* ================================= */
-/* =====services section============ */
+/* =====section-three============ */
+.section-three {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.section-three-list {
+  --indent: 24px;
+  --items: 3;
+}
+.card-set {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: var(--indent);
+}
+.card-set-item {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+.section-three-item {
+  border: 0; /*1px solid var(--cornflower);*/
+}
 
 /* ================================= */
 /* ======team-section=============== */
-.team-section-list {
-  background-color: var(--white);
-  text-align: center;
-}
 .team-section {
   background-color: var(--cloud);
+}
+.team-section-title {
+  color: var(--grey);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  min-width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+.team-section-item {
+  background-color: var(--white);
+  text-align: center;
 }
 
 .employee-job {
