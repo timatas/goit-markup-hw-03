@@ -92,7 +92,9 @@ img {
 .header {
   display: block;
   padding: 24px 0px 24px;
+  border-bottom: 1px solid var(--cornflower);
 }
+
 .header-container {
   display: flex;
   width: 1158px;
@@ -232,7 +234,7 @@ img {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 .section-three-item {
-  border: 0; /*1px solid var(--cornflower);*/
+  border: 0;
 }
 
 /* ================================= */
@@ -283,7 +285,18 @@ img {
 }
 /* ================================ */
 /* =====Buttons====== */
-
+.buttons-section {
+  padding: 0;
+  margin-top: 96px;
+  margin-left: 427px;
+  margin-right: 427px;
+  margin-bottom: 72px;
+}
+.buttons-section-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .buttons {
   font-family: inherit;
   background: var(--cloud);
@@ -293,9 +306,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: 1px solid var(--cornflower);
   cursor: pointer;
+  min-width: 21px;
+  min-height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+  padding: 12px 24px;
 }
+
 .buttons:hover,
 .buttons:focus {
   background: var(--ocean);
@@ -305,20 +323,48 @@ img {
   background: var(--ocean);
   color: var(--white);
 }
+.buttons-section-list {
+  display: flex;
+  gap: 24px;
+}
 /* ========================= */
 /* ======Menu section======= */
-
+.menu-section {
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+.menu-section-list {
+  flex-wrap: wrap;
+  --items: 3;
+  --indent: 48px;
+  column-gap: 24px;
+}
+.menu-list-item {
+  padding: 0;
+  border: 1px solid var(--cornflower);
+  background: var(--white);
+  margin-bottom: 48px;
+}
+.menu-list-img {
+  padding-bottom: 32px;
+  object-fit: contain;
+}
 .menu-title {
   color: var(--grey);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding: 0 16px;
+  margin: 0;
+  margin-bottom: 8px;
 }
 .menu-title-choice {
   color: var(--slate);
   font-weight: 400;
   letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0 16px 32px 16px;
 }
 /* ================================ */
 /* =====Footer styles============== */
