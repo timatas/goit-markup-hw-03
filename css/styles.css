@@ -319,11 +319,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-/*.buttons-section-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}*/
+
 .buttons {
   font-family: inherit;
   background: var(--cloud);
@@ -359,15 +355,10 @@ img {
 }
 /* ========================= */
 /* ======Menu section======= */
-.menu-section {
-  margin: 0 auto;
-  margin-bottom: 72px;
-}
+
 .menu-section-list {
   display: flex;
   flex-wrap: wrap;
-  --items: 3;
-  --indent: 48px;
   column-gap: 24px;
   row-gap: 48px;
 }
