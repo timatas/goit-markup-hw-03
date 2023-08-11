@@ -249,6 +249,7 @@ img {
 /* ======team-section=============== */
 .team-section {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 .team-section-title {
   color: var(--grey);
@@ -266,7 +267,11 @@ img {
 .team-section-list {
   --items: 4;
   --indent: 24px;
+  gap: 24px;
   padding-bottom: 120px;
+}
+.employee-info {
+  padding: 32px 0;
 }
 
 .team-section-item {
@@ -282,7 +287,16 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
+.employee-title {
+  color: var(--grey);
+  background-color: var(--white);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
 .employee-job {
   background-color: var(--white);
   font-weight: 400;
@@ -290,6 +304,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 /* ================================ */
 /* =====Buttons====== */
