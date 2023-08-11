@@ -95,6 +95,7 @@ img {
   display: block;
   padding: 24px 0px 24px;
   border-bottom: 1px solid var(--cornflower);
+  margin: 0 auto;
 }
 
 .header-container {
@@ -103,6 +104,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 .header-nav {
 }
@@ -268,7 +270,6 @@ img {
   --items: 4;
   --indent: 24px;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .employee-info {
   padding: 32px 0;
