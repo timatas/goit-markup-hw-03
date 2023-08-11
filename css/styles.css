@@ -316,6 +316,8 @@ img {
   margin-left: 427px;
   margin-right: 427px;
   margin-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .buttons-section-container {
   display: flex;
