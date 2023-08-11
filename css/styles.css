@@ -159,7 +159,9 @@ img {
   margin-bottom: 120px;
   padding: 188px 0;
 }
- 
+ {
+  .main-section-container;
+}
 .main-section-title {
   max-width: 496px;
   margin: 0 auto;
@@ -284,6 +286,7 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 .employee-title {
   color: var(--grey);
