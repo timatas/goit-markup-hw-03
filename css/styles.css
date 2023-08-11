@@ -319,11 +319,11 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.buttons-section-container {
+/*.buttons-section-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
+}*/
 .buttons {
   font-family: inherit;
   background: var(--cloud);
@@ -345,6 +345,7 @@ img {
 .buttons:focus {
   background: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
 }
 .buttons:active {
   background: var(--ocean);
@@ -353,6 +354,8 @@ img {
 .buttons-section-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 /* ========================= */
 /* ======Menu section======= */
@@ -361,22 +364,30 @@ img {
   margin-bottom: 72px;
 }
 .menu-section-list {
+  display: flex;
   flex-wrap: wrap;
   --items: 3;
   --indent: 48px;
   column-gap: 24px;
+  row-gap: 48px;
 }
 .menu-list-item {
   padding: 0;
   border: 1px solid var(--cornflower);
   background: var(--white);
   margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .menu-list-img {
   padding-bottom: 32px;
   object-fit: contain;
 }
-.menu-title {
+.menu-div {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.menu-div .menu-title {
   color: var(--grey);
   font-size: 20px;
   font-weight: 500;
@@ -386,7 +397,7 @@ img {
   margin: 0;
   margin-bottom: 8px;
 }
-.menu-title-choice {
+.menu-div .menu-title-choice {
   color: var(--slate);
   font-weight: 400;
   letter-spacing: 0.02em;
