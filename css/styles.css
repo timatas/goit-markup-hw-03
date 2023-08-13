@@ -409,7 +409,6 @@ img {
 .footer-text {
   max-width: 264px;
   margin: 0;
-  margin-top: 16px;
   color: var(--cloud);
   letter-spacing: 0.02em;
 }
