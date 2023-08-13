@@ -353,10 +353,7 @@ img {
   row-gap: 48px;
 }
 .menu-list-item {
-  padding: 0;
-  border: 1px solid var(--cornflower);
   background: var(--white);
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 .menu-list-img {
@@ -372,7 +369,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding: 0 16px;
   margin: 0;
   margin-bottom: 8px;
 }
@@ -381,7 +377,6 @@ img {
   font-weight: 400;
   letter-spacing: 0.02em;
   margin: 0;
-  padding: 0 16px 32px 16px;
 }
 /* ================================ */
 /* =====Footer styles============== */
@@ -391,7 +386,7 @@ img {
   background-color: var(--grey);
 }
 .logo-footer {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   margin-bottom: 16px;
   margin-right: 76px;
